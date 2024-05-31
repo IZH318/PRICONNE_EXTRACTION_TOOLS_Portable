@@ -4,6 +4,8 @@
 
 <BR><BR><BR>
 
+
+
 ## 🔍 주요 기능
 ■ 클라이언트 파일이 있는 위치에서 스크립트를 실행하면 각 파일 이름을 원본 이름으로 변경 후 파일이 추출됩니다. <BR>
 (* 확장자 별 변환 과정은 다음과 같습니다.)
@@ -11,8 +13,11 @@
   - *.awb, *.acb -> *.wav
   - *.usm -> *.mp4
   - *storydata.bytes -> *.json
+  - *storydata_storydata.bytes -> *.*
 
 <BR><BR><BR>
+
+
 
 ## 💾 다운로드
 [![icon_item_91001](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/89c074f2-f869-4377-8e10-fc6a1d7e5de4)](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/releases)
@@ -34,11 +39,11 @@
 ### ※ 발견 된 문제를 미리 확인하여 작업 중 적절히 대처할 수 있도록 준비하십시오.
 
 <details>
-  <summary>📛 지금까지 발견 된 문제(* 발견시 추가 예정)</summary><BR>
+  <summary>📛 지금까지 발견 된 문제</summary><BR>
 
 
-`발견시 추가 예정`<BR>
-발견시 추가 예정
+`01. 한국 서버 클라이언트 일부 *.usm 파일 소리 깨짐`<BR>
+`\m\t` 폴더에 있는 *.usm 파일 중 일부 *.usm 파일이 정상적으로 변환되지 않음
 
 <BR>
 
@@ -123,60 +128,108 @@
 
 <BR><BR><BR>
 
+
+
 ## ⏩ 사용 방법
 01. zip 파일 다운로드 후 적절한 위치에 압축 해제 합니다. <BR>
-![2024-03-23 21 07 06](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/d8c0bd93-36fe-44be-afe1-e6b814415a52) <BR><BR><BR>
+![2024-05-31 20 47 50](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/cfbdcf6f-51b8-451f-b671-95482ebf9036) <BR><BR><BR>
 
 
 
 2. `01_Install` 폴더로 이동 후 본문 상단 `💾 다운로드`을 참고하여 파일을 설치합니다. <BR>
-![2024-03-23 21 07 37](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/d3ebf8ce-080e-49c0-9f6b-3ebb3444e335) <BR>
-![2024-03-23 21 10 09](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/c7556e8e-76d8-4fe3-b074-3d26fa43425a) <BR>
-**[ ※ 주의 ] Add python.exe to PATH 에 반드시 체크 후 Install Now 클릭** <BR>
+![2024-05-31 20 53 59](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/0941493c-3d3d-4964-862d-4a21dc6cb768) <BR>
+![2024-05-31 20 48 52](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/eb56167a-9aa0-40b8-8dd0-80357f9aae92) <BR>
+**[ ※ 주의 ] Python 설치 시 Add python.exe to PATH 에 반드시 체크 후 Install Now 클릭** <BR>
 (📌 미처 누르지 못했다면 설치파일을 다시 실행 또는 소프트웨어 제거 후 재 설치) <BR><BR><BR>
 
 
 
 3. 모두 설치가 끝났다면 `02_Tools` 폴더로 이동합니다. <BR>
-![2024-03-23 21 11 06](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/3ab44e7f-c5fb-473e-895b-db47198eb569) <BR><BR><BR>
+![2024-05-31 20 55 06](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/cc8225d5-65a8-4990-8529-b56a17468d83) <BR><BR><BR>
 
 
 
 4. `00. Install required Python packages.bat` 파일을 실행하여 Python Package를 설치합니다. <BR>
-![2024-03-23 21 12 30](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/2f38827c-7cee-4b4a-9366-f1b56ca6d95f) <BR>
-![2024-03-23 21 12 42](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/c223c840-cf1d-4abf-b5d6-3d295be3c43d) <BR>
-![2024-03-23 21 12 58](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/44477a1c-76e8-45a1-a494-3ac7b4b595c2) <BR>
-(📌 필요 Python Package 설치가 끝나면 위와 같은 화면이 표기됩니다.) <BR><BR><BR>
+![2024-05-31 20 50 43](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/5fe76b28-4bb5-4a86-9953-8e0dc91f55b9) <BR>
+![녹화_2024_05_31_17_38_16_882 mp4_snapshot_00 00 000](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/decb8bb1-f0c8-4835-8420-e9e39c09b2b7) <BR>
+![녹화_2024_05_31_17_38_16_882 mp4_snapshot_00 11 697](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/6bb9696e-52a6-42bb-9389-9872c38c257b) <BR>
+(📌 필수 Python Package 설치가 끝나면 위와 같은 화면이 표시됩니다.) <BR><BR><BR>
 
 
 
-6. `01. Manifest File Renamer` 파일을 실행하여 z <BR>
-![2024-03-23 21 13 09](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/513b5cfc-62f1-4060-9060-7e8eeed8aeb2) <BR>
-![2024-03-23 21 13 25](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/83372f25-6c7e-4572-a2e1-ca001935adda) <BR>
-(📌 manifest 추출이 끝나면 위와 같이 파일이 생깁니다.) <BR><BR><BR>
+5. 게임 클라이언트 원본 구조를 그대로 유지한 상태로 스크립트가 있는 경로로 불러옵니다. <BR>
+![2024-05-31 21 00 58](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/05fe810b-1273-447a-b31e-5d2250b758b3) <BR><BR><BR>
 
 
 
-7. `02_Priconne_Original_Resource_Download_to_Convert.py` 파일을 실행하여 다운로드 및 변환 할 manifest 정보를 입력하고 Enter키를 누릅니다. <BR>
-![2024-03-23 21 13 40](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/657ac134-e740-4914-9094-bfe64fd1dfab) <BR>
-![2024-03-23 21 13 58](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/3e2b1fce-0ba5-4152-bc4e-ead27f5030ba) <BR><BR>
+6. `01. Manifest File Renamer.py` 파일을 실행하여 SHA1 Hash로 저장 된 파일 이름을 변경합니다. <BR>
+![2024-05-31 21 02 05](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/677400d6-2c57-46e5-b235-3c9dc25e6817) <BR>
 
-**[ 🛑 경고 🛑 ] 반드시 저장 공간이 여유로운 곳에서 작업하십시오.** <BR><BR><BR>
- 
-![_2024_03_23_21_15_29_34-ezgif com-video-to-gif-converter](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/025f37d3-648f-470f-83ad-e6ecf3f67755) <BR>
-(📌 `banner2_assetmanifest` 입력 결과) <BR><BR><BR>
+![녹화_2024_05_31_21_06_50_102 mp4_snapshot_00 00 000](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/f232bf41-85ff-4352-ba32-af4c0907c695) <BR>
 
-![2024-03-23 21 34 48](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/c1cd31f9-8e3b-4d40-96b1-26c9546f8d05) <BR>
-**만약 위 사진처럼 예상치 못한 오류로 인해 작업이 중단 또는 멈춘다면 창을 닫고 다시 열어 다시 작업 해 주시기 바랍니다.** <BR><BR><BR>
+![ezgif-4-b28ffe7a05](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/edfff47e-de9b-4acc-971e-9097cb96a58f) <BR>
 
-![2024-03-23 21 15 49](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/a5c05a23-1043-40a5-a754-ccbb35861f11) <BR>
-![2024-03-23 21 15 58](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/36d200ae-b3d2-46dc-b1bf-a613e4caa1ba) <BR>
-(📌 `banner2_assetmanifest` 입력 결과) <BR><BR>
+![녹화_2024_05_31_21_06_50_102 mp4_snapshot_00 01 282](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/ca0a94af-f572-45a8-8934-8c8c4eeb1514) <BR>
+(📌 파일 이름이 모두 변경되면 위와 같은 화면이 표시됩니다.) <BR><BR><BR>
 
-![2024-03-30 02 06 07](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS/assets/99892351/edae366b-51c7-4b14-b0dc-517a204c05ea) <BR>
-(📌 `movie2manifest` 입력 결과) <BR><BR>
 
-작업이 성공적으로 끝나면 새로운 폴더와 함께 원본 파일 및 변환 된 파일을 확인할 수 있습니다.
+
+7. `02. unity3d File Converter.py` 파일을 실행하여 *.unity3d 파일에서 Asset을 추출(변환)합니다. <BR>
+![2024-05-31 21 12 57](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/4c9d07e1-1742-4b7b-98a9-fa4b42c8e73f) <BR>
+
+![녹화_2024_05_31_20_20_40_361 mp4_snapshot_00 00 000](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/db40c687-b9ce-47f6-b76f-1e2981b2c7e1) <BR>
+
+**[ 🛑 경고 🛑 ] 반드시 저장 공간이 여유로운 곳에서 작업하십시오.** <BR><BR>
+
+![ezgif-4-d611beffd8](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/e2c76417-ebdf-426b-b469-a5dee82cb669) <BR>
+
+![녹화_2024_05_31_20_20_40_361 mp4_snapshot_00 01 294](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/0f3ec38f-028a-4116-b1f9-2f09849eb054) <BR>
+(📌 작업이 성공적으로 끝나면 위와 같은 화면이 표시됩니다.) <BR><BR>
+
+![2024-05-31 21 15 56](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/d1c9438c-9041-4cda-ac9b-100d83e0a487) <BR>
+(📌 `\a\_Convert` 폴더) <BR><BR>
+
+작업이 성공적으로 끝나면 원본 Resource 폴더 내 `_Convert` 폴더가 생성되며, 해당 내부에 원본 *.unity3d 파일 이름으로 추출(변환) 된 Asset이 저장되어 있는 것을 확인할 수 있습니다. <BR><BR><BR>
+
+
+
+8. `03. Audio File Converter.py` 파일을 실행하여 *.acb, *.awb 파일에서 Resource를 추출(변환)합니다. <BR>
+![2024-05-31 21 22 58](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/4cb398ea-d2d0-4984-ac83-8a51a6b51cd6) <BR>
+
+![녹화_2024_05_31_20_26_39_551 mp4_snapshot_00 00 000](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/e81762eb-3af8-4b86-974d-1e5ff84b0e86) <BR>
+
+**[ 🛑 경고 🛑 ] 반드시 저장 공간이 여유로운 곳에서 작업하십시오.** <BR><BR>
+
+![ezgif-4-575f84a008](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/3820ad83-fd3d-4230-b038-79fa6c81c287) <BR>
+
+![녹화_2024_05_31_20_26_39_551 mp4_snapshot_00 07 285](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/41f5457a-7144-4e52-bd80-44fd3976c1cf) <BR>
+(📌 작업이 성공적으로 끝나면 위와 같은 화면이 표시됩니다.) <BR><BR>
+
+![2024-05-31 21 23 46](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/eb12e53a-4bec-4e65-a6cc-d7703a67c479) <BR>
+(📌 `\b\_Convert` 폴더) <BR><BR>
+
+작업이 성공적으로 끝나면 원본 Resource 폴더 내 `_Convert` 폴더가 생성되며, 해당 폴더 내부에 원본 *.acb 파일 이름 또는 *.awb 파일 이름으로 추출(변환) 된 Resource가 저장되어 있는 것을 확인할 수 있습니다. <BR><BR><BR>
+
+
+
+9. `04. Video File Converter.py` 파일을 실행하여 *.usm 파일에서 Resource를 추출(변환)합니다. <BR>
+![2024-05-31 21 25 04](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/841748fe-f346-44eb-8857-b2c2641056ff) <BR>
+
+![녹화_2024_05_31_20_26_57_870 mp4_snapshot_00 00 000](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/8c64043f-af90-45dd-a0df-c93698c72d4e) <BR>
+
+**[ 🛑 경고 🛑 ] 반드시 저장 공간이 여유로운 곳에서 작업하십시오.** <BR><BR>
+
+![ezgif-4-37e0380221](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/98854e82-e073-4c55-8936-130a02186318) <BR>
+
+![녹화_2024_05_31_20_26_57_870 mp4_snapshot_00 02 951](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/cd142076-b903-4a24-a33d-f322197d39fa) <BR>
+(📌 작업이 성공적으로 끝나면 위와 같은 화면이 표시됩니다.) <BR><BR>
+
+![2024-05-31 21 28 45](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/18675838-dd2b-4a0f-a5dc-30d3cc385eea) <BR>
+(📌 `\m\_Convert` 폴더) <BR><BR>
+
+작업이 성공적으로 끝나면 원본 Resource 폴더 내 `_Convert` 폴더가 생성되며, 해당 폴더 내부에 원본 *.usm 파일 이름으로 추출(변환) 된 Resource가 저장되어 있는 것을 확인할 수 있습니다.
+
+
 
 <BR><BR><BR>
 
@@ -185,27 +238,37 @@
 
 **[선택 작업]** <BR>
 캐릭터 명을 모두 추출하고 싶다면 `05. Character List Export.py` 파일을 실행합니다. <BR><BR>
-![2024-03-23 21 17 06](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/218c4b3d-c335-49fb-8189-f66cea4085cd) <BR>
-![_2024_03_23_21_45_30_866-ezgif com-video-to-gif-converter](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/2914305b-b991-4b95-9c42-0e72141c17ad)
+![녹화_2024_05_31_20_34_50_160 mp4_snapshot_00 00 000](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/066c93b1-5395-470a-9478-e65e0b6f7f07) <BR>
+
+![ezgif-5-fbc7712a65](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/70735b26-c6c5-47c4-a7d7-6f5d0ca0f25a)
 
 <BR><BR><BR>
+
+
 
 **[선택 작업]** <BR>
 입력 한 캐릭터명 전체 또는 일부를 기준으로 대사 정보 및 Audio 파일 정보를 찾고싶다면 `06. Vocal Resource Info Export.py` 파일을 실행합니다. <BR><BR>
-![2024-03-23 21 49 57](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/0ac69fab-c8b0-4316-8d75-d0120dd4b772) <BR>
-![SHANA_2024_03_23_21_50_37_194-ezgif com-video-to-gif-converter](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/a9da55db-3b00-441e-848d-17378091521c) <BR>
+![캡처_2024_05_31_21_53_33_344](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/0c190cf7-6d68-4967-9a0f-1e928fe35538) <BR>
+
+![ezgif-6-c9bead1666](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/dd55be38-851c-4400-a665-bcc946c43db4) <BR>
 
 예를 들어, 'コッコロ(=콧코로)'를 입력하지 않고, 'コ'만 입력 후 검색을 하면 모든 캐릭터 이름 중 'コ'가 포함 된 캐릭터 모두 결과값을 반환합니다. <BR>
-(📌 위 GIF에 녹화 된 내용 기준으로 'コッコロ(콧코로)', 'ペコリーヌ(=페코린느)', 'マコト(=마코토)', 'ミヤコ(=미야코)' 가 포함 된 결과가 출력 된 것을 확인할 수 있습니다.)
+(📌 위 GIF에 녹화 된 내용 기준으로 'コッコロ(콧코로)', 'ペコリーヌ(=페코린느)', 'マコト(=마코토)', 'ミヤコ(=미야코)' 등 'コ'가 포함 된 결과가 출력 된 것을 확인할 수 있습니다.)
 
 <BR><BR><BR>
+
+
 
 **[선택 작업]** <BR>
-원본 Resource 파일을 모두 제거하려는 경우 `07. Original Resource Remover.py` 파일을 실행하여 원본 Resource 파일을 제거합니다. <BR><BR>
-![2024-03-23 21 16 09](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/23a983ed-5d14-445e-8b22-ff94c48fdffc) <BR>
-![_2024_03_23_21_40_55_699-ezgif com-video-to-gif-converter](https://github.com/IZH318/priconne-asset-extractor/assets/99892351/138d888e-9da5-41ed-9871-ba3dd0ab1cf5)
+원본 Resource 파일을 모두 제거하려는 경우 `07. Original Resource Remover.bat` 파일을 실행하여 원본 Resource 파일을 제거합니다. <BR><BR>
+![녹화_2024_05_31_20_43_14_736 mp4_snapshot_00 00 263](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/81051272-7a83-4669-b01b-0b46f23747ac) <BR>
+![ezgif-6-5b02b54d9b](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/4fc88979-1fdd-4385-bf3e-876d0a022821)
+
+
 
 <BR><BR><BR>
+
+
 
 ## ⚙ 고급 설정 (선택)
 ### ※ 이 작업은 Python 언어로 작성 된 Script의 내용을 이해하고 응용할 수 있는 분들께 추천드리는 작업입니다. <BR><BR>
@@ -258,6 +321,8 @@
 
 <BR><BR><BR>
 
+
+
 ## 해야 할 일
 - 게임 출석
 - 콧코로 수첩
@@ -268,6 +333,8 @@
 - 클랜전
 
 <BR><BR><BR>
+
+
 
 ## Special Thanks to
 ✨ Princess Connect! Re:Dive Game Users <BR>
